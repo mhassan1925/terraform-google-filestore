@@ -11,9 +11,9 @@ module "filestore" {
     }
     network = {
         name = "default"
-        reserved_ip_range = "10.217.22.0/29"
+        reserved_ip_range = "10.217.22.0/20"
     }
-    description = "A test instance"
+    description = "test instance"
     labels = {
         foo = "bar"
         baz = "biz"
